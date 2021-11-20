@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://youtube.com"
+  youtube          : "UCuAXFkgsw1L7xaCfnd5JJOw"
   wikipedia        :
 
 
@@ -187,7 +187,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  contact:
+    output: true
+    premalink: /:collection/:path/      #added this line by hand, remove if needed.
 
 # Defaults
 defaults:
